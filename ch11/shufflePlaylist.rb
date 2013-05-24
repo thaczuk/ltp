@@ -1,3 +1,5 @@
+#what does proc do?
+
 def music_shuffle filenames 
 	songs_and_paths = filenames.map do |s|
 		[s, s.split('/')] # [song, path] 
